@@ -117,7 +117,7 @@ J'ai implémenté deux hooks personnalisés :
 
 **Captures d'écran** :
 
-![Optimisation de la recherche](screenshots/exercice2/optimisationRecherche.png)
+![Optimisation de la recherche](screenshots/exercice2/optimisationrecherche.png)
 
 ### Exercice 3 : Optimisation et Context
 #### Objectif : Gérer le thème global et optimiser les rendus
