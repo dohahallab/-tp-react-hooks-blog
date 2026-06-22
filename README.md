@@ -53,7 +53,7 @@ Pour chaque exercice :
 - [X] 1.4 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 1 :_
-```
+
 **Solution** :
 
 Pour cet exercice, j'ai créé un hook personnalisé `usePosts` (dans `src/hooks/usePosts.jsx`) qui gère l'état des `posts`, du `loading`, de l'`error` et du terme de recherche. Il utilise `useEffect` pour appeler l'API DummyJSON avec les paramètres de recherche.
@@ -94,7 +94,7 @@ Le composant `PostSearch` (dans `src/components/PostSearch.jsx`) contient une ba
 - [X] 2.4 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 2 :_
-```
+
 **Solution** :
 
 J'ai implémenté deux hooks personnalisés :
@@ -128,7 +128,7 @@ J'ai implémenté deux hooks personnalisés :
 - [X] 3.4 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 3 :_
-```
+
 **Solution** :
 
 - **ThemeContext** (`src/context/ThemeContext.jsx`) : j'ai créé un contexte avec `createContext` et un `ThemeProvider` qui expose `theme` et `toggleTheme`. Le thème est stocké via `useLocalStorage` pour persistance. Le `useTheme` hook personnalisé permet d'accéder facilement au contexte dans les composants.
@@ -166,7 +166,7 @@ _Votre réponse pour l'exercice 3 :_
 - [X] 4.4 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 4 :_
-```
+
 **Solution** :
 
 - **`useIntersectionObserver`** (`src/hooks/useIntersectionObserver.jsx`) : ce hook utilise l'API `IntersectionObserver` pour détecter quand l'élément référencé entre dans le viewport. Il retourne une ref à attacher à un élément (généralement un div de garde en bas de la liste) et un booléen `isIntersecting`.  
